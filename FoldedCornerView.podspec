@@ -21,8 +21,9 @@ Pod::Spec.new do |spec|
   spec.license      = { :type => "MIT", :file => "LICENSE" }
   spec.author       = { "Viktar Tsialitsyn" => "meandmymouse@gmail.com" }
   spec.platform     = :ios, "10.0"
+  spec.swift_version = '5.3'
   spec.source       = { :git => "https://github.com/viktart/FoldedCornerView.git", :tag => "#{spec.version}" }
 
-  spec.source_files  = "Classes", "Classes/**/*"
+  spec.source_files  = "FoldedCornerView/Classes/**/*"
 
 end
